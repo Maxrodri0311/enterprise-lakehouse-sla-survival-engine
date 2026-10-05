@@ -23,7 +23,7 @@ from src.domain.causal_policy import CausalFinOpsPolicy
 
 def run_benchmarks(iterations: int = 50):
     print("=" * 70)
-    print("  MIRANTE LAKEHOUSE SLA SURVIVAL ENGINE - QUANTITATIVE BENCHMARK")
+    print("  Enterprise Data Lakehouse Practice LAKEHOUSE SLA SURVIVAL ENGINE - QUANTITATIVE BENCHMARK")
     print("=" * 70)
 
     # 1. Setup sample data and model

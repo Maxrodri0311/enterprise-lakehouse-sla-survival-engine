@@ -1,5 +1,5 @@
 """
-src/domain/entities.py - Pure Domain Entities for Mirante Lakehouse SLA Survival Engine.
+src/domain/entities.py - Pure Domain Entities for Enterprise Data Lakehouse Practice Lakehouse SLA Survival Engine.
 Defines immutable data models for Spark/Delta Lake telemetry snapshots, pipeline execution lifecycle,
 actuarial risk estimates, and causal FinOps intervention decisions.
 Strictly decoupled: Zero external I/O or vendor SDKs imported here.

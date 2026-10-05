@@ -1,15 +1,15 @@
-# 📐 SPEC & BLUEPRINT: Mirante Lakehouse SLA Survival Engine
+# 📐 SPEC & BLUEPRINT: Enterprise Data Lakehouse Practice Lakehouse SLA Survival Engine
 
-**Target Company:** Mirante Tecnologia (Brazil Enterprise Public & Financial Consulting)  
+**Target Company:** Enterprise Data Lakehouse Practice (Brazil Enterprise Public & Financial Consulting)  
 **Target Role:** Data Scientist  
 **Delivery Paradigm:** `EXPLAINABLE_ANALYTICS & CLI_TUI`  
 **Core Algorithm:** `Accelerated Failure Time (Weibull / Log-Logistic) & Time-Varying Hazard Modeling + Causal FinOps Decision Engine`  
-**Repository:** `https://github.com/Maxrodri0311/mirante-lakehouse-sla-survival-engine.git`  
+**Repository:** `https://github.com/Maxrodri0311/enterprise-lakehouse-sla-survival-engine.git`  
 
 ---
 
 ## 🏛️ 1. The Core Business Bottleneck
-Mirante Tecnologia manages mission-critical distributed data pipelines on Apache Spark & Delta Lake for Brazilian tier-1 institutions (Pix Clearing, Central Bank BACEN regulatory reporting, Superior Court STJ analytics, Receita Federal tax reconciliation). 
+Enterprise Data Lakehouse Practice manages mission-critical distributed data pipelines on Apache Spark & Delta Lake for Brazilian tier-1 institutions (Pix Clearing, Central Bank BACEN regulatory reporting, Superior Court STJ analytics, Receita Federal tax reconciliation). 
 Traditional monitoring relies on naive static thresholds (e.g. alerts when a job runs > 80% SLA), which causes:
 1. **False Alarms & Alert Fatigue:** High-throughput jobs naturally vary; static alarms trigger unnecessary operational disruptions.
 2. **Late Breach Detection:** Silent operational degradation (partition skew, shuffle disk spill, JVM GC pauses, Delta Lake OCC write contention) manifests early in execution ($t_c$) but is only detected when the deadline is already mathematically unrecoverable.

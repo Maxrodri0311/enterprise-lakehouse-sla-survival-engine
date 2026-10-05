@@ -1,6 +1,6 @@
 """
 src/data_generator.py - Calibrated Stochastic Telemetry & Execution Generator.
-Simulates real-world Apache Spark & Delta Lake pipeline telemetry for Mirante Tecnologia Lakehouse.
+Simulates real-world Apache Spark & Delta Lake pipeline telemetry for Enterprise Data Lakehouse Practice Lakehouse.
 Generates physical pipeline execution logs and time-varying observation snapshots (as-of t_c)
 governed by Accelerated Failure Time (AFT) physics, partition skew, shuffle spill,
 JVM GC pauses, and Delta Lake OCC concurrency contention.
@@ -73,7 +73,7 @@ def generate_lakehouse_telemetry(
     np.random.seed(seed)
     rng = np.random.default_rng(seed)
 
-    print(f"[Data Generator] Simulating {num_runs:,} Spark pipeline runs for Mirante Tecnologia...")
+    print(f"[Data Generator] Simulating {num_runs:,} Spark pipeline runs for Enterprise Data Lakehouse Practice...")
 
     domains = list(DOMAIN_SPECS.keys())
     domain_weights = [DOMAIN_SPECS[d]["weight"] for d in domains]
@@ -310,7 +310,7 @@ def generate_lakehouse_telemetry(
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate Mirante Lakehouse Telemetry Dataset.")
+    parser = argparse.ArgumentParser(description="Generate Enterprise Data Lakehouse Practice Lakehouse Telemetry Dataset.")
     parser.add_argument("--runs", type=int, default=2500, help="Number of physical pipeline runs to simulate")
     parser.add_argument("--output", type=str, default="data/lakehouse", help="Output lakehouse root directory")
     parser.add_argument("--seed", type=int, default=42, help="Reproducibility seed")

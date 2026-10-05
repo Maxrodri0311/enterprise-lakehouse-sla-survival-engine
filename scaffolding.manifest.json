@@ -1,7 +1,7 @@
 {
   "project_name": "mirante_lakehouse_sla_survival_engine",
-  "repo_name": "mirante-lakehouse-sla-survival-engine",
-  "target_company": "Mirante Tecnologia",
+  "repo_name": "enterprise-lakehouse-sla-survival-engine",
+  "target_company": "Enterprise Data Lakehouse Practice",
   "target_role": "Data Scientist",
   "paradigm": "EXPLAINABLE_ANALYTICS & CLI_TUI",
   "core_algorithm": "Accelerated Failure Time (Weibull & Log-Logistic) & Causal FinOps Policy",

@@ -1,6 +1,6 @@
 @echo off
 echo ================================================================================
-echo   Mirante Lakehouse SLA Survival Engine
+echo   Enterprise Data Lakehouse Practice Lakehouse SLA Survival Engine
 echo   Automated Execution, Testing and Quantitative Benchmarks
 echo ================================================================================
 echo.

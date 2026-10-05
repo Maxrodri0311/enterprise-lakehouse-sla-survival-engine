@@ -1,6 +1,6 @@
 """
 src/interface.py - Rich Terminal User Interface (CLI_TUI Paradigm).
-Mirante Lakehouse SLA Survival Engine - Interactive Executive & Telemetry Console.
+Enterprise Data Lakehouse Practice Lakehouse SLA Survival Engine - Interactive Executive & Telemetry Console.
 Visualizes real-time pipeline survival curves, physical bottleneck diagnostics,
 and prescriptive causal FinOps remediation decisions across Brazilian tier-1 institutions.
 """
@@ -31,7 +31,7 @@ console = Console()
 def render_dashboard(base_lakehouse_dir: str = "data/lakehouse"):
     # 1. Header Banner
     banner_text = (
-        "[bold white]MIRANTE LAKEHOUSE SLA SURVIVAL ENGINE[/bold white]\n"
+        "[bold white]Enterprise Data Lakehouse Practice LAKEHOUSE SLA SURVIVAL ENGINE[/bold white]\n"
         "[dim]Causal & Survival Lifecycle Analytics for Mission-Critical Spark & Delta Lake Pipelines[/dim]\n"
         "[cyan]Institutions: BRL Pix Clearing | BACEN Regulatory | STJ Judicial | Receita Federal[/cyan]"
     )
